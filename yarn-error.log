@@ -1,0 +1,43 @@
+Arguments: 
+  /home/hmmd/.nvm/versions/node/v15.5.0/bin/node /home/hmmd/.nvm/versions/node/v15.5.0/bin/yarn
+
+PATH: 
+  /home/hmmd/.yarn/bin:/home/hmmd/Android/flutter/bin:/home/hmmd/.nvm/versions/node/v15.5.0/bin:/home/hmmd/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/hmmd/Android/Sdk/emulator:/home/hmmd/Android/Sdk/tools:/home/hmmd/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.5.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:69:26)
+
+npm manifest: 
+  {
+    "name": "job-listing",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.0.5"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.1.5",
+      "@vue/compiler-sfc": "^3.0.5",
+      "vite": "^2.0.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
